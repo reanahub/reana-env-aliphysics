@@ -8,7 +8,7 @@
 .. image:: https://badges.gitter.im/Join%20Chat.svg
    :target: https://gitter.im/reanahub/reana?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 
-.. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+.. image:: https://img.shields.io/badge/License-GPL%20v2-blue.svg
    :target: https://github.com/reanahub/reana-env-aliphysics/blob/master/LICENSE
 
 About
@@ -79,5 +79,5 @@ Contributors
 
 The list of contributors in alphabetical order:
 
-- Dario Berzano <dario.berzano@cern.ch>
+- `Dario Berzano <https://orcid.org/0000-0003-4390-9321>`_ <dario.berzano@cern.ch>
 - `Tibor Simko <https://orcid.org/0000-0001-7202-5803>`_ <tibor.simko@cern.ch>
