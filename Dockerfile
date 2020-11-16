@@ -1,6 +1,7 @@
 FROM centos:centos7
 
 # Install all required packages
+# hadolint ignore=DL3033, DL3013, DL3003
 RUN yum install -y http://linuxsoft.cern.ch/wlcg/centos7/x86_64/wlcg-repo-1.0.0-1.el7.noarch.rpm && \
     yum install -y HEP_OSlibs git environment-modules which                                      && \
     yum clean all                                                                                && \
@@ -40,6 +41,7 @@ ARG ALIPHYSICS_VERSION=vAN-20170521-1
 ENV ALIPHYSICS_VERSION=${ALIPHYSICS_VERSION}
 
 # Install everything (takes a while), and test -- fails if AliPhysics version is not found
+# hadolint ignore=DL3003
 RUN cd /opt/ali-bot/publish                                                                && \
     sed -i -e "s/@@ALIPHYSICS_VERSION@@/$ALIPHYSICS_VERSION/" aliPublish-reana.conf        && \
     ./aliPublish --debug --conf aliPublish-reana.conf sync-dir                             && \
