@@ -2,8 +2,8 @@
  REANA Environment AliPhysics
 ==============================
 
-.. image:: https://img.shields.io/travis/reanahub/reana-env-aliphysics.svg
-   :target: https://travis-ci.org/reanahub/reana-env-aliphysics
+.. image:: https://github.com/reanahub/reana-env-aliphysics/workflows/CI/badge.svg
+   :target: https://github.com/reanahub/reana-env-aliphysics/actions
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
    :target: https://gitter.im/reanahub/reana?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
@@ -71,8 +71,7 @@ More information
 ================
 
 For more information about `REANA <http://reanahub.io/>`_ reusable research data
-analysis platform, please see `its documentation
-<http://reana.readthedocs.io/>`_.
+analysis platform, please see `its documentation <https://docs.reana.io/>`_.
 
 Contributors
 ============
