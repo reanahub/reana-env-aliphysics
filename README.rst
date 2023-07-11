@@ -54,7 +54,7 @@ If you would like to try it locally, you can run:
 
 .. code-block:: console
 
-   $ docker run -i -t --rm -v $HOME/foo:/foo reana-env-aliphysics:vAN-20170521-1 /bin/bash
+   $ docker run -i -t --rm -v $HOME/foo:/foo docker.io/reanahub/reana-env-aliphysics:vAN-20170521-1 /bin/bash
 
 which will drop you to a shell with the appropriate AliPhysics environment
 already set. Everything you write in ``/foo`` inside the container will be

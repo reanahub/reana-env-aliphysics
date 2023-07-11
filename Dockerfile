@@ -1,4 +1,4 @@
-FROM centos:centos7
+FROM docker.io/centos:centos7
 
 # Install all required packages
 # hadolint ignore=DL3033, DL3013, DL3003

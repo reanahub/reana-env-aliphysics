@@ -1,4 +1,4 @@
-IMAGE=reanahub/reana-env-aliphysics
+IMAGE=docker.io/reanahub/reana-env-aliphysics
 
 all:
 	@echo "Usage: make <action> where action is build, test, or push."
