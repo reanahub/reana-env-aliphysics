@@ -1,7 +1,7 @@
 FROM docker.io/centos:centos7
 
 # Install all required packages
-# hadolint ignore=DL3033, DL3013, DL3003
+# hadolint ignore=DL3033,DL3013,DL3003
 RUN yum install -y http://linuxsoft.cern.ch/wlcg/centos7/x86_64/wlcg-repo-1.0.0-1.el7.noarch.rpm && \
     yum install -y HEP_OSlibs git environment-modules which                                      && \
     yum clean all                                                                                && \
@@ -9,7 +9,7 @@ RUN yum install -y http://linuxsoft.cern.ch/wlcg/centos7/x86_64/wlcg-repo-1.0.0-
     chmod +x /tmp/get-pip.py                                                                     && \
     /tmp/get-pip.py                                                                              && \
     rm -f /tmp/get-pip.py                                                                        && \
-    pip install PyYAML requests                                                                  && \
+    pip install --no-cache-dir PyYAML requests                                                   && \
     mkdir -p /opt/ali-bot                                                                        && \
     cd /opt/ali-bot                                                                              && \
     git clone https://github.com/alisw/ali-bot /opt/ali-bot
