@@ -72,11 +72,3 @@ More information
 
 For more information about `REANA <http://reanahub.io/>`_ reusable research data
 analysis platform, please see `its documentation <https://docs.reana.io/>`_.
-
-Contributors
-============
-
-The list of contributors in alphabetical order:
-
-- `Dario Berzano <https://orcid.org/0000-0003-4390-9321>`_ <dario.berzano@cern.ch>
-- `Tibor Simko <https://orcid.org/0000-0001-7202-5803>`_ <tibor.simko@cern.ch>
